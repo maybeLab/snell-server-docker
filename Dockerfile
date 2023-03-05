@@ -1,5 +1,5 @@
 FROM primovist/alpine-glibc
-ARG SNELL_URL=https://dl.nssurge.com/snell/snell-server-v4.0.0-linux-amd64.zip
+ARG SNELL_URL=https://dl.nssurge.com/snell/snell-server-v4.0.1-linux-amd64.zip
 LABEL maintainer="shoyuf" \
          org.label-schema.name="snell-server"
  ENV LANG=C.UTF-8
